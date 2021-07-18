@@ -201,9 +201,6 @@
 ----------- */
     
     @media only screen and (max-width:688px) {
-        /* body {
-            max-width: 100%;
-        } */
         .nav-style {
             position: relative;
             margin-bottom: 30px;
@@ -262,9 +259,28 @@
         .container {
             border-radius: 5px;
             margin-bottom: 25px;
-            width: 350px;
+            width: 100%;
             background-color: #ffffff;
             padding: 33px;
+        }
+        .fa-star.filled {
+            color: #FFC014;
+            font-size: 10px;
+        }
+        .fa-star.empty {
+            color: #aeaeae6e;
+            font-size: 10px;
+        }
+        .details span {
+            color: #aeaeaee5;
+            font-size: 12px;
+        }
+        .details p {
+            background-color: #FFE4E8;
+            color: #FF4A60;
+            border-radius: 15px;
+            padding: 0 2px;
+            font-size: 12px;
         }
     }
     
@@ -287,7 +303,7 @@
         .container {
             border-radius: 5px;
             margin-bottom: 25px;
-            width: 500px;
+            width: 100%;
             background-color: #ffffff;
             padding: 33px;
         }
@@ -333,7 +349,7 @@
         .container {
             border-radius: 5px;
             margin-bottom: 25px;
-            width: 800px;
+            width: 100%;
             background-color: #ffffff;
             padding: 33px;
         }
